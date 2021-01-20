@@ -1,7 +1,7 @@
 # Service Milegi Client
 
 ### About
-Client interface of the Service Milegi App which can be used for app client to manage services.
+Client interface of the Service Milegi App which can be used by app client to manage services.
 
 ### App Features
   * Home screen displays the services availed by users at any given time.
