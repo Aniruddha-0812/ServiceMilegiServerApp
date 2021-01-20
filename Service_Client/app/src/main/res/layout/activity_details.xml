@@ -5,73 +5,118 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DetailsActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+
+
+        <TextView
+            android:padding="10dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="firstname"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/round_border"
+            android:textColor="@color/black"
+            />
+
 
     <TextView
-        android:layout_marginTop="15dp"
-        android:id="@+id/name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="firstname"
-        android:layout_gravity="center_horizontal"
-        />
-
-    <TextView
-        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"
         android:id="@+id/work"
-        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="job"
         android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/round_border"
+        android:textColor="@color/black"
         />
 
     <TextView
-        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:id="@+id/time"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="time"
         android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/round_border"
+        android:textColor="@color/black"
         />
 
     <TextView
-        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"
         android:id="@+id/status"
-        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="status"
         android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/round_border"
+        android:textColor="@color/black"
         />
 
     <TextView
-        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"
         android:id="@+id/mobile"
-        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="mobile"
         android:layout_gravity="center_horizontal"
-        />
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/round_border"
+        android:textColor="@color/black"/>
 
     <TextView
-        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="32dp"
         android:id="@+id/address"
-        android:layout_width="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="address"
+        android:text="job"
         android:layout_gravity="center_horizontal"
-        />
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/round_border"
+        android:textColor="@color/black"/>
 
     <Button
-        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
         android:id="@+id/mark_complete"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mark completed"
         android:layout_gravity="center_horizontal"
+        android:background="@drawable/round_border"
         />
-
-
-
 
 
 </LinearLayout>

@@ -96,6 +96,8 @@ public class DetailsActivity extends AppCompatActivity {
 
     }
 
+
+
     private void UpdaterUser() {
     DocumentReference query =  db.collection("Users").document(user_id).collection("Orders").document(order_id);
 
