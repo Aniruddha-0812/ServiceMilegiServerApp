@@ -1,4 +1,4 @@
-# Service Milegi Client
+# Service Milegi Server
 
 ### About
 Client interface of the Service Milegi App which can be used by app client to manage services.
